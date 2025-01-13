@@ -16,7 +16,7 @@ A YOLOv8-based AI solution for detecting road signs and traffic signals in real-
 4. **Update Prediction Command**:
    - Modify the following code snippet in the notebook:
      ```python
-     weightsPath="/content/RoadSignDetection/Self-Driving-Cars-6/runs/detect/train/weights"
+     weightsPath="/content/RoadSignDetection/Self-Driving-Cars-2/runs/detect/train/weights"
      !yolo task=detect mode=predict model={weightsPath}/best.pt conf=.25 source='/content/ManualTestingData/InputVideo.mp4' save=True
      ```
    - Replace `InputVideo.mp4` with the name of your uploaded video or image.
