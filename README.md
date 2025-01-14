@@ -36,6 +36,9 @@ A YOLOv8-based AI solution for detecting road signs and traffic signals in real-
 - Example detections are saved as videos with annotated bounding boxes.
 - Performance metrics (e.g., confusion matrix and results.csv) are generated after training.
 
+## Prediction Accuracy
+- The model achieved an accuracy of approximately 85.6% based on the confusion matrix.
+
 ## Tested Video Result
 View an example of the tested video output here:  
 [Download Tested Video](https://drive.google.com/file/d/18RE01fxlee7mfv4yS-3NhS4Zetf3BJVE/view?usp=sharing)
